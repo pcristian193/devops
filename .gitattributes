@@ -1,0 +1,32 @@
+# Ensure shell scripts use LF line endings
+*.sh text eol=lf
+
+# Make scripts executable (optional — for Git attributes-based export)
+*.sh diff
+*.sh linguist-language=Shell
+
+# Mark documentation files as text
+*.md  text
+*.txt text
+*.log text
+
+# Handle other config files
+*.yml text
+*.yaml text
+*.json text
+*.conf text
+*.ini text
+
+# Treat all files as text by default
+* text=auto
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz  binary
+
