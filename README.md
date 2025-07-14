@@ -3,5 +3,5 @@
 ## Usage
 
 ```bash
-./hello.sh
+./exec.sh
 ```
