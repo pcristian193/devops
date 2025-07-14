@@ -1,0 +1,56 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.old
+*.out
+*.pid
+
+# Shell history (if ever exported)
+.history
+
+# Project-specific ignores
+.env
+.env.*
+*.secret
+*.key
+
+# Dependency files (if using any external tools)
+node_modules/
+vendor/
+dist/
+build/
+
+# Backup files
+*~
+
+# Test outputs
+/test-output/
+coverage/
+
+# Ignore compiled binaries if any are generated
+*.o
+*.so
+*.a
+*.exe
+*.bin
+
+# Ignore generated docs
+docs/generated/
+
+# ShellCheck or Lint cache (if used)
+.shellcheck_cache
+
+# Ignore custom tags
+tags
+
