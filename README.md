@@ -1,5 +1,7 @@
 # DEVOPS
 
-## Getting started
+## Usage
 
-Hello world!
+```bash
+./hello.sh
+```
